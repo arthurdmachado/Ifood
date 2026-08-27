@@ -19,7 +19,7 @@ CREATE TABLE restaurante (
 
 CREATE TABLE pedido (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    data_pedido DATE TIME NOT NULL,
+    data_pedido DATETIME NOT NULL,
     valor DECIMAL(10,2) NOT NULL, 
     status VARCHAR(200) NOT NULL,
     clientes_id INT,

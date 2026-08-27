@@ -1,11 +1,11 @@
 <?php
 
-$host = "localhost"
-$user = "root"
-$password = ""
-$database = "banco_ifood"
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "banco_ifood";
 
-$conexao = new mysqli($host, $user, $password, $database 6666);
+$conexao = new mysqli($host, $user, $password, $database);
 
 if ($conexao->connect_error) {
     die("Erro na conexão com o banco: " . $conexao->connect_error);

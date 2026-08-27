@@ -1,14 +1,14 @@
 A plataforma de delivery iFood conecta clientes a diversos restaurantes, permitindo que pedidos sejam realizados de forma rápida e acompanhados até a entrega. Para essa atividade, você deverá desenvolver uma versão simplificada desse sistema, utilizando PHP e MySQL.
 
-O sistema deverá trabalhar com três entidades principais: Cliente, Restaurante e Pedido.
+O sistema deverá trabalhar com três entidades principais: Cliente, Restaurante e Pedido. *OK*
 
-A entidade Cliente deverá possuir os atributos id, nome, email, telefone e endereco.
+A entidade Cliente deverá possuir os atributos id, nome, email, telefone e endereco. *OK*
 
-A entidade Restaurante deverá possuir os atributos id, nome, categoria, telefone e endereco.
+A entidade Restaurante deverá possuir os atributos id, nome, categoria, telefone e endereco. *OK*
 
-A entidade Pedido deverá possuir os atributos id, cliente_id, restaurante_id, data_pedido, valor e status.
+A entidade Pedido deverá possuir os atributos id, cliente_id, restaurante_id, data_pedido, valor e status. *OK*
 
-O relacionamento entre Cliente e Pedido será 1:N, pois um cliente pode realizar vários pedidos. O relacionamento entre Restaurante e Pedido também será 1:N, pois um restaurante pode receber vários pedidos.
+O relacionamento entre Cliente e Pedido será 1:N, pois um cliente pode realizar vários pedidos. O relacionamento entre Restaurante e Pedido também será 1:N, pois um restaurante pode receber vários pedidos. *OK*
 
 Uma nova plataforma de delivery está iniciando suas operações e precisa de um sistema para organizar os pedidos realizados pelos clientes.
 
